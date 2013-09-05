@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--view context -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:lang="http://www.springframework.org/schema/lang"
+       xsi:schemaLocation="
+      http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd">
+    <!-- Configures the @Controller programming model -->
+    <!-- this is the bean definition for the Groovy-backed Messenger implementation -->
+    <!-- switches refreshing on with 5 seconds between checks -->
+
+    <!--<context:annotation-config/>-->
+    <lang:groovy id="messenger"
+                 refresh-check-delay="5000"
+                 script-source="/groovy/GroovyMessagerImpl.groovy">
+        <lang:property name="message" value="I Can Do The Frug"/>
+    </lang:groovy>
+    <!--<lang:groovy id="systemCompanyValidator"-->
+                 <!--refresh-check-delay="5000"-->
+                 <!--script-source="/groovy/SystemCompanyValidator.groovy">-->
+
+    <!--</lang:groovy>-->
+
+    <!--<lang:groovy id="messenger"-->
+    <!--refresh-check-delay="5000">-->
+    <!--<lang:inline-script>-->
+    <!--package org.springframework.scripting.groovy;-->
+
+    <!--import org.springframework.scripting.Messenger-->
+
+    <!--class GroovyMessenger implements Messenger {-->
+
+    <!--String message-->
+    <!--public String getMessage() {-->
+    <!--// change the implementation to surround the message in quotes-->
+    <!--return "'" + this.message + "'"-->
+    <!--}-->
+
+    <!--public void setMessage(String message) {-->
+    <!--this.message = message-->
+    <!--}-->
+
+    <!--}-->
+    <!--</lang:inline-script>-->
+    <!--<lang:property name="message" value="I Can Do The Frug"/>-->
+    <!--</lang:groovy>-->
+
+    <!-- an otherwise normal bean that will be injected by the Groovy-backed Messenger -->
+    <bean id="bookingService" class="com.redsun.platf.groovy.DefaultBookingService">
+        <property name="messenger" ref="messenger"/>
+    </bean>
+
+</beans>

@@ -1,0 +1,195 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for redsun:org.redsun.core:jar:1.0
+[WARNING] 'build.plugins.plugin.version' for org.apache.felix:maven-bundle-plugin is missing. @ redsun:redsun.root:1.0, E:\Workspaces\MyEclipse 8.6\mutil\pom.xml, line 861, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building org.redsun.core 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:tree (default-cli) @ org.redsun.core ---
+[INFO] redsun:org.redsun.core:jar:1.0
+[INFO] +- org.slf4j:slf4j-log4j12:jar:1.7.1:compile
+[INFO] +- org.slf4j:slf4j-api:jar:1.7.1:compile
+[INFO] +- log4j:log4j:jar:1.2.17:compile
+[INFO] +- commons-codec:commons-codec:jar:1.6:compile
+[INFO] +- org.springframework:spring-core:jar:3.1.0.RELEASE:compile
+[INFO] |  \- org.springframework:spring-asm:jar:3.1.0.RELEASE:compile
+[INFO] +- org.springframework:spring-context:jar:3.1.0.RELEASE:compile
+[INFO] |  \- org.springframework:spring-aop:jar:3.1.0.RELEASE:compile
+[INFO] +- org.springframework:spring-context-support:jar:3.1.0.RELEASE:compile
+[INFO] +- org.springframework:spring-beans:jar:3.1.0.RELEASE:compile
+[INFO] +- org.springframework:spring-expression:jar:3.1.0.RELEASE:compile
+[INFO] +- org.springframework:spring-orm:jar:3.1.0.RELEASE:compile
+[INFO] |  \- org.springframework:spring-jdbc:jar:3.1.0.RELEASE:compile
+[INFO] +- org.springframework:spring-oxm:jar:3.1.0.RELEASE:compile
+[INFO] +- org.springframework:spring-tx:jar:3.1.0.RELEASE:compile
+[INFO] |  \- aopalliance:aopalliance:jar:1.0:compile
+[INFO] +- org.springframework:spring-test:jar:3.1.0.RELEASE:compile
+[INFO] +- org.springframework:spring-instrument:jar:3.1.0.RELEASE:compile
+[INFO] +- org.aspectj:aspectjweaver:jar:1.6.8:compile
+[INFO] +- org.aspectj:aspectjrt:jar:1.6.8:compile
+[INFO] +- cglib:cglib:jar:2.2:compile
+[INFO] |  \- asm:asm:jar:3.1:compile
+[INFO] +- org.springframework:spring-web:jar:3.1.0.RELEASE:compile
+[INFO] +- org.springframework:spring-webmvc:jar:3.1.0.RELEASE:compile
+[INFO] +- org.springframework.security:spring-security-core:jar:3.1.0.RELEASE:compile
+[INFO] |  \- org.springframework.security:spring-security-crypto:jar:3.1.0.RELEASE:compile
+[INFO] +- org.springframework.security:spring-security-config:jar:3.1.0.RELEASE:compile
+[INFO] +- org.springframework.security:spring-security-taglibs:jar:3.1.0.RELEASE:compile
+[INFO] |  +- org.springframework.security:spring-security-web:jar:3.1.0.RELEASE:compile
+[INFO] |  \- org.springframework.security:spring-security-acl:jar:3.1.0.RELEASE:compile
+[INFO] +- org.hibernate:hibernate-core:jar:3.6.0.Final:compile
+[INFO] |  +- antlr:antlr:jar:2.7.6:compile
+[INFO] |  +- dom4j:dom4j:jar:1.6.1:compile
+[INFO] |  +- org.hibernate:hibernate-commons-annotations:jar:3.2.0.Final:compile
+[INFO] |  +- org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.0.Final:compile
+[INFO] |  \- javax.transaction:jta:jar:1.1:compile
+[INFO] +- org.hibernate:hibernate-entitymanager:jar:3.6.0.Final:compile
+[INFO] |  \- javassist:javassist:jar:3.12.0.GA:compile
+[INFO] +- org.hibernate:hibernate-validator:jar:4.2.0.Final:compile
+[INFO] +- org.hibernate:hibernate-ehcache:jar:3.6.0.Final:compile
+[INFO] +- org.apache.struts:struts2-core:jar:2.2.3.1:compile
+[INFO] |  +- org.apache.struts.xwork:xwork-core:jar:2.2.3.1:compile
+[INFO] |  +- ognl:ognl:jar:3.0.1:compile
+[INFO] |  \- commons-io:commons-io:jar:2.0.1:compile
+[INFO] +- org.apache.struts:struts2-convention-plugin:jar:2.2.3.1:compile
+[INFO] +- org.apache.struts:struts2-spring-plugin:jar:2.2.3.1:compile
+[INFO] +- org.apache.struts:struts2-junit-plugin:jar:2.2.3.1:compile
+[INFO] +- org.apache.struts:struts2-json-plugin:jar:2.2.3.1:compile
+[INFO] +- org.apache.struts:struts2-codebehind-plugin:jar:2.2.3.1:compile
+[INFO] +- commons-dbcp:commons-dbcp:jar:1.4:compile
+[INFO] |  \- commons-pool:commons-pool:jar:1.5.4:compile
+[INFO] +- mysql:mysql-connector-java:jar:5.1.13:compile
+[INFO] +- com.h2database:h2:jar:1.2.142:compile
+[INFO] +- org.dbunit:dbunit:jar:2.4.8:compile
+[INFO] +- junit:junit:jar:4.8.2:compile
+[INFO] +- org.mockito:mockito-all:jar:1.8.5:compile
+[INFO] +- org.easymock:easymock:jar:3.0:compile
+[INFO] |  +- cglib:cglib-nodep:jar:2.2:compile
+[INFO] |  \- org.objenesis:objenesis:jar:1.2:compile
+[INFO] +- org.seleniumhq.selenium:selenium-java:jar:2.24.1:test
+[INFO] |  +- org.seleniumhq.selenium:selenium-android-driver:jar:2.24.1:test
+[INFO] |  +- org.seleniumhq.selenium:selenium-chrome-driver:jar:2.24.1:test
+[INFO] |  +- org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.24.1:test
+[INFO] |  |  +- net.sourceforge.htmlunit:htmlunit:jar:2.9:test
+[INFO] |  |  |  +- xalan:xalan:jar:2.7.1:test
+[INFO] |  |  |  |  \- xalan:serializer:jar:2.7.1:test
+[INFO] |  |  |  +- org.apache.httpcomponents:httpmime:jar:4.1.2:test
+[INFO] |  |  |  +- net.sourceforge.htmlunit:htmlunit-core-js:jar:2.9:test
+[INFO] |  |  |  +- xerces:xercesImpl:jar:2.9.1:test
+[INFO] |  |  |  |  \- xml-apis:xml-apis:jar:1.3.04:test
+[INFO] |  |  |  +- net.sourceforge.nekohtml:nekohtml:jar:1.9.15:test
+[INFO] |  |  |  \- net.sourceforge.cssparser:cssparser:jar:0.9.5:test
+[INFO] |  |  |     \- org.w3c.css:sac:jar:1.3:test
+[INFO] |  |  \- org.apache.httpcomponents:httpclient:jar:4.1.2:test
+[INFO] |  |     \- org.apache.httpcomponents:httpcore:jar:4.1.2:test
+[INFO] |  +- org.seleniumhq.selenium:selenium-ie-driver:jar:2.24.1:test
+[INFO] |  |  +- net.java.dev.jna:jna:jar:3.4.0:test
+[INFO] |  |  \- net.java.dev.jna:platform:jar:3.4.0:test
+[INFO] |  +- org.seleniumhq.selenium:selenium-iphone-driver:jar:2.24.1:test
+[INFO] |  +- org.seleniumhq.selenium:selenium-safari-driver:jar:2.24.1:test
+[INFO] |  +- org.seleniumhq.selenium:selenium-support:jar:2.24.1:test
+[INFO] |  \- org.webbitserver:webbit:jar:0.4.6:test
+[INFO] |     \- org.jboss.netty:netty:jar:3.2.7.Final:test
+[INFO] +- org.seleniumhq.selenium:selenium-server:jar:2.24.1:test
+[INFO] |  +- org.bouncycastle:bcprov-jdk15on:jar:1.47:test
+[INFO] |  +- mx4j:mx4j-tools:jar:3.0.1:test
+[INFO] |  +- org.mortbay.jetty:servlet-api-2.5:jar:6.1.9:test
+[INFO] |  +- org.seleniumhq.selenium:jetty-repacked:jar:7.6.1:test
+[INFO] |  +- net.jcip:jcip-annotations:jar:1.0:test
+[INFO] |  \- org.yaml:snakeyaml:jar:1.8:test
+[INFO] +- org.seleniumhq.selenium:selenium-api:jar:2.24.1:test
+[INFO] |  \- org.json:json:jar:20080701:test
+[INFO] +- org.seleniumhq.selenium:selenium-firefox-driver:jar:2.24.1:test
+[INFO] |  +- org.seleniumhq.selenium:selenium-remote-driver:jar:2.24.1:test
+[INFO] |  \- org.apache.commons:commons-exec:jar:1.1:test
+[INFO] +- com.opera:operadriver:jar:0.14:test
+[INFO] |  +- com.opera:operalaunchers:jar:0.8:test
+[INFO] |  +- com.google.protobuf:protobuf-java:jar:2.4.1:test
+[INFO] |  +- commons-jxpath:commons-jxpath:jar:1.3:test
+[INFO] |  \- org.ini4j:ini4j:jar:0.5.2:test
+[INFO] +- org.mortbay.jetty:jetty:jar:6.1.25:provided
+[INFO] |  \- org.mortbay.jetty:servlet-api:jar:2.5-20081211:provided
+[INFO] +- org.eclipse.jetty:jetty-jsp-2.1:jar:7.5.0.RC2:provided
+[INFO] +- net.sf.ehcache:ehcache:jar:1.6.2:compile
+[INFO] +- commons-lang:commons-lang:jar:2.5:compile
+[INFO] +- commons-logging:commons-logging:jar:1.1.1:compile
+[INFO] +- commons-beanutils:commons-beanutils:jar:1.8.3:compile
+[INFO] +- commons-digester:commons-digester:jar:2.0:compile
+[INFO] +- commons-fileupload:commons-fileupload:jar:1.2.1:compile
+[INFO] +- com.google.guava:guava:jar:r06:compile
+[INFO] +- com.thoughtworks.xstream:xstream:jar:1.3.1:compile
+[INFO] |  \- xpp3:xpp3_min:jar:1.1.4c:compile
+[INFO] +- org.codehaus.jackson:jackson-core-asl:jar:1.9.8:compile
+[INFO] +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.8:compile
+[INFO] +- javax.validation:validation-api:jar:1.0.0.GA:compile
+[INFO] +- javax.servlet:javax.servlet-api:jar:3.0.1:compile
+[INFO] +- javax.servlet.jsp:javax.servlet.jsp-api:jar:2.2.1:compile
+[INFO] +- javax.servlet:jstl:jar:1.2:compile
+[INFO] +- joda-time:joda-time:jar:2.1:compile
+[INFO] +- org.freemarker:freemarker:jar:2.3.19:compile
+[INFO] +- com.lowagie:itext:jar:2.1.7:compile
+[INFO] |  +- bouncycastle:bcmail-jdk14:jar:138:compile
+[INFO] |  +- bouncycastle:bcprov-jdk14:jar:138:compile
+[INFO] |  \- org.bouncycastle:bctsp-jdk14:jar:1.38:compile
+[INFO] |     +- org.bouncycastle:bcprov-jdk14:jar:1.38:compile
+[INFO] |     \- org.bouncycastle:bcmail-jdk14:jar:1.38:compile
+[INFO] +- rome:rome:jar:1.0:compile
+[INFO] |  \- jdom:jdom:jar:1.0:compile
+[INFO] +- net.sf.jasperreports:jasperreports:jar:4.7.0:compile
+[INFO] |  +- jfree:jcommon:jar:1.0.15:compile
+[INFO] |  +- jfree:jfreechart:jar:1.0.12:compile
+[INFO] |  +- eclipse:jdtcore:jar:3.1.0:compile
+[INFO] |  +- org.codehaus.castor:castor:jar:1.2:compile
+[INFO] |  \- org.apache.poi:poi-ooxml:jar:3.7:compile
+[INFO] |     \- org.apache.poi:poi-ooxml-schemas:jar:3.7:compile
+[INFO] |        +- org.apache.xmlbeans:xmlbeans:jar:2.3.0:compile
+[INFO] |        |  \- stax:stax-api:jar:1.0.1:compile
+[INFO] |        \- org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0:compile
+[INFO] +- org.apache.poi:poi:jar:3.6:compile
+[INFO] +- org.apache.tiles:tiles-api:jar:2.1.2:compile
+[INFO] |  \- commons-logging:commons-logging-api:jar:1.1:compile
+[INFO] +- org.apache.tiles:tiles-core:jar:2.1.2:compile
+[INFO] +- org.apache.tiles:tiles-jsp:jar:2.1.2:compile
+[INFO] +- org.apache.tiles:tiles-servlet:jar:2.1.2:compile
+[INFO] +- commons-collections:commons-collections:jar:3.2:compile
+[INFO] +- org.codehaus.groovy:groovy:jar:1.8.8:compile
+[INFO] |  +- asm:asm-commons:jar:3.2:compile
+[INFO] |  +- asm:asm-util:jar:3.2:compile
+[INFO] |  +- asm:asm-analysis:jar:3.2:compile
+[INFO] |  \- asm:asm-tree:jar:3.2:compile
+[INFO] +- org.directwebremoting:dwr:jar:3.0.M1:compile
+[INFO] |  \- org.mortbay.jetty:cometd:jar:6.1.4:compile
+[INFO] |     \- org.mortbay.jetty:jetty-util:jar:6.1.25:compile
+[INFO] +- opensymphony:sitemesh:jar:2.4.2:compile
+[INFO] +- org.apache.mina:mina-core:jar:2.0.7:compile
+[INFO] +- org.apache.mina:mina-statemachine:jar:2.0.7:compile
+[INFO] +- org.apache.mina:mina-integration-jmx:jar:2.0.7:compile
+[INFO] |  +- org.apache.mina:mina-core:bundle:2.0.7:compile
+[INFO] |  +- org.apache.mina:mina-integration-beans:bundle:2.0.7:compile
+[INFO] |  \- org.apache.mina:mina-integration-ognl:bundle:2.0.7:compile
+[INFO] +- org.apache.mina:mina-filter-compression:jar:2.0.7:compile
+[INFO] |  \- com.jcraft:jzlib:jar:1.1.1:compile
+[INFO] +- org.apache.mina:mina-integration-beans:jar:2.0.7:compile
+[INFO] +- org.apache.mina:mina-integration-ognl:jar:2.0.7:compile
+[INFO] |  \- jboss:javassist:jar:3.7.ga:runtime
+[INFO] +- org.apache.mina:mina-integration-xbean:jar:2.0.7:compile
+[INFO] |  +- org.apache.mina:mina-core:jar:sources:2.0.7:compile
+[INFO] |  +- org.springframework:spring:jar:2.5.6.SEC03:compile
+[INFO] |  \- org.apache.xbean:xbean-spring:jar:3.11.1:compile
+[INFO] +- org.apache.mina:mina-transport-apr:jar:2.0.7:compile
+[INFO] |  \- tomcat:tomcat-apr:jar:5.5.23:compile
+[INFO] \- org.rxtx:rxtx:jar:2.1.7:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.767s
+[INFO] Finished at: Sun Apr 28 08:36:13 CST 2013
+[INFO] Final Memory: 18M/286M
+[INFO] ------------------------------------------------------------------------

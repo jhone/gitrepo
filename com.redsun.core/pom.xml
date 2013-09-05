@@ -1,0 +1,75 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>redsun.root</artifactId>
+        <groupId>redsun</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>com.redsun.core</artifactId>
+    <packaging>jar</packaging>
+
+    <name>com.redsun.core</name>
+
+
+    <!--<properties>-->
+        <!--<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
+    <!--</properties>-->
+
+    <!--
+                          配置文件
+                          包含jar
+                          輸出JAR、目錄
+                          JRE jar
+
+                          <injar>${project.build.finalName}.jar</injar>
+                          <outjar>${project.build.finalName}-small.jar</outjar>
+                          <outputDirectory>${project.build.directory}</outputDirectory>
+                          <proguardInclude>${basedir}/proguard.cfg</proguardInclude>
+       -->
+    <!--proguard
+    <build>
+        <plugins>
+
+
+            <plugin>
+                <groupId>com.pyx4me</groupId>
+                <artifactId>proguard-maven-plugin</artifactId>
+                <version>2.0.4</version>
+                <configuration>
+                    <options>
+                        <option>-allowaccessmodification</option>
+                    </options>
+                    <obfuscate>true</obfuscate>
+                    <injar>classes</injar>
+                    <outjar>${project.build.finalName}.jar</outjar>
+                    <outputDirectory>${project.build.directory}</outputDirectory>
+                    <proguardInclude>${basedir}/src/main/resources/proguard.cfg</proguardInclude>
+                    <libs>
+                        <lib>${java.home}/lib/rt.jar</lib>
+                        <lib>${java.home}/lib/jsse.jar</lib>
+                    </libs>
+                </configuration>
+
+                <executions>
+                    <execution>
+                        <phase>process-classes</phase>
+                        <goals>
+                            <goal>proguard</goal>
+                        </goals>
+                    </execution>
+                </executions>
+
+            </plugin>
+
+
+
+
+        </plugins>
+
+
+    </build>
+        -->
+
+</project>
